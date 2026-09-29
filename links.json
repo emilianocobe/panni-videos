@@ -1,0 +1,132 @@
+[
+  {
+    "grupo": "Cómo funciona, de punta a punta",
+    "videos": [
+      {
+        "titulo": "Recorrido de compra",
+        "dur": "6:56",
+        "url": "https://emilianocobe.github.io/panni-videos/v/recorrido-de-compra/"
+      }
+    ]
+  },
+  {
+    "grupo": "Estado de obra",
+    "videos": [
+      {
+        "titulo": "Estado de obra · 28/09/2026",
+        "dur": "3:59",
+        "url": "https://emilianocobe.github.io/panni-videos/v/estado-de-obra/"
+      }
+    ]
+  },
+  {
+    "grupo": "Tutoriales del panel",
+    "videos": [
+      {
+        "titulo": "01 · Entrar al panel",
+        "dur": "3:57",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-01-entrar-al-panel/"
+      },
+      {
+        "titulo": "02 · Cargar una pieza",
+        "dur": "3:52",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-02-cargar-una-pieza/"
+      },
+      {
+        "titulo": "03 · Fotos y videos",
+        "dur": "3:57",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-03-fotos-y-videos/"
+      },
+      {
+        "titulo": "04 · Catálogo en lote y orden",
+        "dur": "3:46",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-04-catalogo-en-lote-y-orden/"
+      },
+      {
+        "titulo": "05 · Lo que muestra el sitio",
+        "dur": "3:53",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-05-lo-que-muestra-el-sitio/"
+      },
+      {
+        "titulo": "06 · Stock de piezas únicas",
+        "dur": "3:59",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-06-stock-de-piezas-unicas/"
+      },
+      {
+        "titulo": "07 · Pedidos y boutique",
+        "dur": "3:50",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-07-pedidos-y-boutique/"
+      },
+      {
+        "titulo": "08 · Seguimiento",
+        "dur": "3:52",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-08-seguimiento/"
+      },
+      {
+        "titulo": "09 · WhatsApp y cuentas de clientas",
+        "dur": "3:57",
+        "url": "https://emilianocobe.github.io/panni-videos/v/tutorial-09-whatsapp-y-cuentas/"
+      }
+    ]
+  },
+  {
+    "grupo": "Marketing · borradores",
+    "videos": [
+      {
+        "titulo": "Manifiesto · horizontal",
+        "dur": "0:42",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-manifiesto-16x9/"
+      },
+      {
+        "titulo": "Manifiesto · vertical",
+        "dur": "0:42",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-manifiesto-9x16/"
+      },
+      {
+        "titulo": "Anuncio de lanzamiento",
+        "dur": "0:15",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-teaser-drop-9x16/"
+      },
+      {
+        "titulo": "Trench Shukai Organza · vertical",
+        "dur": "0:17",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-trench-shukai-organza-9x16/"
+      },
+      {
+        "titulo": "Trench Shukai Organza · cuadrado",
+        "dur": "0:17",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-trench-shukai-organza-1x1/"
+      },
+      {
+        "titulo": "Blazer Nuime · vertical",
+        "dur": "0:17",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-blazer-nuime-9x16/"
+      },
+      {
+        "titulo": "Blazer Nuime · cuadrado",
+        "dur": "0:17",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-blazer-nuime-1x1/"
+      },
+      {
+        "titulo": "Tapado Kimono Brushed Takai · vertical",
+        "dur": "0:17",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-tapado-kimono-brushed-takai-9x16/"
+      },
+      {
+        "titulo": "Tapado Kimono Brushed Takai · cuadrado",
+        "dur": "0:17",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-tapado-kimono-brushed-takai-1x1/"
+      },
+      {
+        "titulo": "Saga · Flora Ring · vertical",
+        "dur": "0:15",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-saga-flora-ring-9x16/"
+      },
+      {
+        "titulo": "Saga · Flora Ring · cuadrado",
+        "dur": "0:15",
+        "url": "https://emilianocobe.github.io/panni-videos/v/mk-saga-flora-ring-1x1/"
+      }
+    ]
+  }
+]
