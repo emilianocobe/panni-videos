@@ -8,6 +8,16 @@ const mm = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2
 
 const GRUPOS = [
   {
+    /* PRIMER grupo: lo último que se hizo. Cada actualización lleva su fecha (AAAA-MM-DD) y se ordenan solas, de la
+       más nueva a la más vieja. Para sumar una: el MP4 y su póster en media/<slug>.mp4/.jpg y una entrada acá. */
+    id: "actualizaciones", titulo: "Actualizaciones de obra", kanji: "更新", porFecha: true,
+    bajada: "Lo último que se hizo, en video y por fecha: de la más nueva a la más vieja.",
+    videos: [
+      { slug: "saga-entrega-2026-10", fecha: "2026-10-21", titulo: "21/10/2026 · Saga Jwls: la entrega del 19/10", dur: 239, formato: "16:9",
+        texto: "Qué hicimos con la entrega de Saga Jwls, ya cargada en el sitio de prueba: las 10 fichas con sus textos y precios, Célula pasa a ser Coral, Guerrero y Micelio nuevas, 25 fotos, 2 videos y el botón de cuidados de la plata. Al final, las 6 preguntas que necesitamos que Saga responda. Capítulos: 01 Lo que llegó (0:05) · 02 Cómo lo cruzamos (0:19) · 03 Cómo quedó en el sitio (1:14) · 04 Cuidados (2:14) · 05 Lo que necesitamos de Saga (3:02)." },
+    ],
+  },
+  {
     id: "recorrido", titulo: "Cómo funciona, de punta a punta", kanji: "工程",
     bajada: "Una compra real en el sitio y lo que pasa en la casa: grabado en vivo, con voz.",
     videos: [
@@ -58,6 +68,10 @@ const GRUPOS = [
 ];
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+/* las actualizaciones, de la más nueva a la más vieja; la cabecera dice la fecha de la última */
+for (const g of GRUPOS) if (g.porFecha) g.videos.sort((a, b) => b.fecha.localeCompare(a.fecha));
+const ultima = GRUPOS.flatMap((g) => g.videos).map((v) => v.fecha).filter(Boolean).sort().at(-1);
+const CABECERA = ultima ? `ACTUALIZADO ${ultima.split("-").reverse().join("/")}` : "SEPTIEMBRE 2026";
 
 const cabeza = (titulo, pre) => `<!doctype html>
 <html lang="es-AR">
@@ -73,7 +87,7 @@ const cabeza = (titulo, pre) => `<!doctype html>
 <link rel="stylesheet" href="${pre}assets/sala.css">
 </head>
 <body>
-<header class="cab"><a href="${pre}index.html" aria-label="Panni Margot · videos"><img src="${pre}assets/logo-completo-blanco.svg" alt="Panni Margot" class="logo"></a><span class="mono">VIDEOS · ${esc("SEPTIEMBRE 2026")}</span></header>
+<header class="cab"><a href="${pre}index.html" aria-label="Panni Margot · videos"><img src="${pre}assets/logo-completo-blanco.svg" alt="Panni Margot" class="logo"></a><span class="mono">VIDEOS · ${esc(CABECERA)}</span></header>
 `;
 const pie = `<footer class="pie mono">PANNI MARGOT · HONDURAS 4940, PALERMO · PRODUCIDO POR ECOBE · USO INTERNO, NO COMPARTIR</footer>
 </body>
