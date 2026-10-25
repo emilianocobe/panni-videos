@@ -13,6 +13,8 @@ const GRUPOS = [
     id: "actualizaciones", titulo: "Actualizaciones de obra", kanji: "更新", porFecha: true,
     bajada: "Lo último que se hizo, en video y por fecha: de la más nueva a la más vieja.",
     videos: [
+      { slug: "promociones-en-lote-2026-10", fecha: "2026-10-25", titulo: "25/10/2026 · Promociones en lote: cómo se hace hoy", dur: 179, formato: "16:9",
+        texto: "Cómo se carga hoy una promo en el panel, grupo por grupo: en Piezas se busca o se filtra, se eligen las piezas y «Liquidar: precio tachado» aplica el porcentaje, con el antes y el después antes de confirmar. El shop y la ficha muestran el original tachado y el precio nuevo, y «Quitar la liquidación» termina la promo. Ojo con la casilla del sello DISCONTINOUS. Capítulos: 01 El pedido (0:05) · 02 Por grupos (0:19) · 03 En el shop (1:23) · 04 Fin de promo (2:11) · 05 La pregunta (2:37). ¿Es esto lo que necesitan, o prefieren cargar la lista de Vero de una vez, con una planilla de código y porcentaje?" },
       { slug: "saga-entrega-2026-10", fecha: "2026-10-21", titulo: "21/10/2026 · Saga Jwls: la entrega del 19/10", dur: 239, formato: "16:9",
         texto: "Qué hicimos con la entrega de Saga Jwls, ya cargada en el sitio de prueba: las 10 fichas con sus textos y precios, Célula pasa a ser Coral, Guerrero y Micelio nuevas, 25 fotos, 2 videos y el botón de cuidados de la plata. Al final, las 6 preguntas que necesitamos que Saga responda. Capítulos: 01 Lo que llegó (0:05) · 02 Cómo lo cruzamos (0:19) · 03 Cómo quedó en el sitio (1:14) · 04 Cuidados (2:14) · 05 Lo que necesitamos de Saga (3:02)." },
     ],
